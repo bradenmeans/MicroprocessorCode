@@ -1,0 +1,36 @@
+Course: ECE372A<br>
+Author: <br>
+NetID: <br>
+Date: <br>
+Project Name: Lab0
+
+# Description
+In this lab, you will familiarize yourself with using platformIO by creating a project and adding files to it.
+
+# Instructions
+0. Download and install platformIO if you haven't already done so.
+1. Download the zipped project folder from D2L to an appropriate directory on your computer
+2. Open the project in PlatformIO
+3. Add two new files to the project titled led.h and led.cpp
+4. Fill out these files according to the requirements in the next section.
+5. Zip your project and turn it in to D2L
+
+# Requirements
+## Overall
+1. The program must compile. This can be tested using the checkmark icon
+2. The project must be turned in to D2L by the end of your lab period
+
+## led.h
+1. Appropriate header guards must be present.
+2. A function prototype that returns void and has no parameters called initLED must be present.
+3. A function prototype that returns void and has no parameters called testLED must be present.
+4. A function prototype called turnOnLED that returns void and has a parameter called led of type int must be present.
+
+## led.cpp
+1. Appropriate files must be included to make the program compile
+2. A *blank* function implementation that returns void and has no parameters called initLED must be present.
+3. A *blank* function implementation that returns void and has no parameters called testLED must be present.
+4. A *blank* function implementation called turnOnLED that returns void and has a parameter called led of type int must be present.
+
+## main.cpp
+1. Must not be changed from provided file except to add your name, date, and netID
